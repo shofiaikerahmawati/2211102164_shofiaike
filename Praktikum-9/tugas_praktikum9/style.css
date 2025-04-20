@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #73a7d5;
+    color: #333;
+  }
+  
+  .blue-top-bar,
+  .blue-bottom-bar {
+    height: 40px;
+  }
+  
+  .blue-bottom-bar {
+    margin-top: 30px;
+  }
+  
+  .cv-container {
+    background: white;
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: -20px;
+  }
+  
+  .top-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .profile-pic img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+  }
+  
+  .profile-info {
+    flex: 1;
+  }
+  
+  .profile-info h1 {
+    font-size: 24px;
+    color: #0e4a87;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+  
+  .profile-info p {
+    margin: 6px 0;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .profile-info a {
+    color: #0e4a87;
+    text-decoration: none;
+  }
+  
+  .profile-info a:hover {
+    text-decoration: underline;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 30px 0;
+  }
+  
+  section {
+    margin-top: 30px;
+  }
+  
+  section h2 {
+    font-size: 18px;
+    color: #0e4a87;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  section p, section li {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  section ul {
+    padding-left: 20px;
+  }
+  
